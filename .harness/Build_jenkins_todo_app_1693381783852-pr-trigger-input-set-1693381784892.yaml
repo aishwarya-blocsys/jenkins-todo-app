@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_jenkins_todo_app_1693381783852-pr-trigger-input-set
+  identifier: Build_jenkins_todo_app_1693381783852prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: sample_project
+  pipeline:
+    identifier: Build_jenkins_todo_app_1693381783852
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
