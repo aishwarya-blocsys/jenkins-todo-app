@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_jenkins_todo_app_1693381188380-push-trigger-input-set
+  identifier: Build_jenkins_todo_app_1693381188380pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: sample_project
+  pipeline:
+    identifier: Build_jenkins_todo_app_1693381188380
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
